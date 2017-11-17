@@ -58,7 +58,3 @@ OnlineStore.sln包含以下项目：
 * OnlineStore.Infrastructure：基础结构层<br>
 * OnlineStore.ServiceContracts：基于WCF的服务契约<br>
 * OnlineStore.Web：基于ASP.NET MVC的站点程序（表示层）<br>
-
-总结
-====
-热烈欢迎爱好Microsoft.NET技术以及领域驱动设计的读者朋友对本案例进行深入讨论。同时也欢迎访问我的博客：http://www.cnblogs.com/zhili
