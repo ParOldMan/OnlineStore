@@ -1,0 +1,113 @@
+
+2017-11-15 14:33:50,087 [18] ERROR OnlineStore.Logger - Exception caught
+System.Messaging.MessageQueueException (0x80004005): 队列不存在，或您没有足够的权限执行该操作。
+   在 System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+   在 System.Messaging.MessageQueue.get_FormatName()
+   在 System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   在 System.Messaging.MessageQueue.Send(Object obj)
+   在 OnlineStore.Events.Bus.MsmqEventBus.Publish[TMessage](TMessage message) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Events\Bus\MsmqEventBus.cs:行号 61
+   在 OnlineStore.Domain.Events.EventHandlers.OrderDispatchedEventHandler.Handle(OrderDispatchedEvent event) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\EventHandlers\OrderDispatchedEventHandler.cs:行号 29
+   在 OnlineStore.Domain.Events.DomainEvent.Handle[TDomainEvent](TDomainEvent domainEvent) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\DomainEvent.cs:行号 65
+   在 OnlineStore.Domain.Model.Order.Dispatch() 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Model\Order.cs:行号 90
+   在 OnlineStore.Application.ServiceImplementations.OrderServiceImp.Dispatch(Guid orderId) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Application\ServiceImplementations\OrderServiceImp.cs:行号 191
+   在 DynamicModule.ns.Wrapped_IOrderService_3dd9a22fcb9d4b96a68e2e9c690bf397.<Dispatch_DelegateImplementation>__10(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+
+2017-11-15 14:33:55,532 [11] ERROR OnlineStore.Logger - Exception caught
+System.Messaging.MessageQueueException (0x80004005): 队列不存在，或您没有足够的权限执行该操作。
+   在 System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+   在 System.Messaging.MessageQueue.get_FormatName()
+   在 System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   在 System.Messaging.MessageQueue.Send(Object obj)
+   在 OnlineStore.Events.Bus.MsmqEventBus.Publish[TMessage](TMessage message) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Events\Bus\MsmqEventBus.cs:行号 61
+   在 OnlineStore.Domain.Events.EventHandlers.OrderDispatchedEventHandler.Handle(OrderDispatchedEvent event) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\EventHandlers\OrderDispatchedEventHandler.cs:行号 29
+   在 OnlineStore.Domain.Events.DomainEvent.Handle[TDomainEvent](TDomainEvent domainEvent) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\DomainEvent.cs:行号 65
+   在 OnlineStore.Domain.Model.Order.Dispatch() 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Model\Order.cs:行号 90
+   在 OnlineStore.Application.ServiceImplementations.OrderServiceImp.Dispatch(Guid orderId) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Application\ServiceImplementations\OrderServiceImp.cs:行号 191
+   在 DynamicModule.ns.Wrapped_IOrderService_3dd9a22fcb9d4b96a68e2e9c690bf397.<Dispatch_DelegateImplementation>__10(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+
+2017-11-15 14:38:00,182 [11] ERROR OnlineStore.Logger - Exception caught
+System.Messaging.MessageQueueException (0x80004005): 队列不存在，或您没有足够的权限执行该操作。
+   在 System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+   在 System.Messaging.MessageQueue.get_FormatName()
+   在 System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   在 System.Messaging.MessageQueue.Send(Object obj)
+   在 OnlineStore.Events.Bus.MsmqEventBus.Publish[TMessage](TMessage message) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Events\Bus\MsmqEventBus.cs:行号 61
+   在 OnlineStore.Domain.Events.EventHandlers.OrderDispatchedEventHandler.Handle(OrderDispatchedEvent event) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\EventHandlers\OrderDispatchedEventHandler.cs:行号 29
+   在 OnlineStore.Domain.Events.DomainEvent.Handle[TDomainEvent](TDomainEvent domainEvent) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\DomainEvent.cs:行号 65
+   在 OnlineStore.Domain.Model.Order.Dispatch() 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Model\Order.cs:行号 90
+   在 OnlineStore.Application.ServiceImplementations.OrderServiceImp.Dispatch(Guid orderId) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Application\ServiceImplementations\OrderServiceImp.cs:行号 191
+   在 DynamicModule.ns.Wrapped_IOrderService_3dd9a22fcb9d4b96a68e2e9c690bf397.<Dispatch_DelegateImplementation>__10(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+
+2017-11-15 14:47:06,622 [26] ERROR OnlineStore.Logger - Exception caught
+System.Messaging.MessageQueueException (0x80004005): 队列不存在，或您没有足够的权限执行该操作。
+   在 System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+   在 System.Messaging.MessageQueue.get_FormatName()
+   在 System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   在 System.Messaging.MessageQueue.Send(Object obj)
+   在 OnlineStore.Events.Bus.MsmqEventBus.Publish[TMessage](TMessage message) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Events\Bus\MsmqEventBus.cs:行号 61
+   在 OnlineStore.Domain.Events.EventHandlers.OrderDispatchedEventHandler.Handle(OrderDispatchedEvent event) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\EventHandlers\OrderDispatchedEventHandler.cs:行号 29
+   在 OnlineStore.Domain.Events.DomainEvent.Handle[TDomainEvent](TDomainEvent domainEvent) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\DomainEvent.cs:行号 65
+   在 OnlineStore.Domain.Model.Order.Dispatch() 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Model\Order.cs:行号 90
+   在 OnlineStore.Application.ServiceImplementations.OrderServiceImp.Dispatch(Guid orderId) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Application\ServiceImplementations\OrderServiceImp.cs:行号 191
+   在 DynamicModule.ns.Wrapped_IOrderService_4e76d32f60ac4ab188c09264d3711f48.<Dispatch_DelegateImplementation>__10(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+
+2017-11-15 14:48:34,840 [26] ERROR OnlineStore.Logger - Exception caught
+System.Messaging.MessageQueueException (0x80004005): 队列不存在，或您没有足够的权限执行该操作。
+   在 System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+   在 System.Messaging.MessageQueue.get_FormatName()
+   在 System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   在 System.Messaging.MessageQueue.Send(Object obj)
+   在 OnlineStore.Events.Bus.MsmqEventBus.Publish[TMessage](TMessage message) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Events\Bus\MsmqEventBus.cs:行号 61
+   在 OnlineStore.Domain.Events.EventHandlers.OrderDispatchedEventHandler.Handle(OrderDispatchedEvent event) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\EventHandlers\OrderDispatchedEventHandler.cs:行号 29
+   在 OnlineStore.Domain.Events.DomainEvent.Handle[TDomainEvent](TDomainEvent domainEvent) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\DomainEvent.cs:行号 65
+   在 OnlineStore.Domain.Model.Order.Dispatch() 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Model\Order.cs:行号 90
+   在 OnlineStore.Application.ServiceImplementations.OrderServiceImp.Dispatch(Guid orderId) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Application\ServiceImplementations\OrderServiceImp.cs:行号 191
+   在 DynamicModule.ns.Wrapped_IOrderService_4e76d32f60ac4ab188c09264d3711f48.<Dispatch_DelegateImplementation>__10(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+
+2017-11-15 14:48:45,743 [26] ERROR OnlineStore.Logger - Exception caught
+System.Messaging.MessageQueueException (0x80004005): 队列不存在，或您没有足够的权限执行该操作。
+   在 System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+   在 System.Messaging.MessageQueue.get_FormatName()
+   在 System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   在 System.Messaging.MessageQueue.Send(Object obj)
+   在 OnlineStore.Events.Bus.MsmqEventBus.Publish[TMessage](TMessage message) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Events\Bus\MsmqEventBus.cs:行号 61
+   在 OnlineStore.Domain.Events.EventHandlers.OrderDispatchedEventHandler.Handle(OrderDispatchedEvent event) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\EventHandlers\OrderDispatchedEventHandler.cs:行号 29
+   在 OnlineStore.Domain.Events.DomainEvent.Handle[TDomainEvent](TDomainEvent domainEvent) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\DomainEvent.cs:行号 65
+   在 OnlineStore.Domain.Model.Order.Dispatch() 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Model\Order.cs:行号 90
+   在 OnlineStore.Application.ServiceImplementations.OrderServiceImp.Dispatch(Guid orderId) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Application\ServiceImplementations\OrderServiceImp.cs:行号 191
+   在 DynamicModule.ns.Wrapped_IOrderService_4e76d32f60ac4ab188c09264d3711f48.<Dispatch_DelegateImplementation>__10(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+
+2017-11-15 14:58:28,287 [15] ERROR OnlineStore.Logger - Exception caught
+System.Messaging.MessageQueueException (0x80004005): 队列不存在，或您没有足够的权限执行该操作。
+   在 System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+   在 System.Messaging.MessageQueue.get_FormatName()
+   在 System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   在 System.Messaging.MessageQueue.Send(Object obj)
+   在 OnlineStore.Events.Bus.MsmqEventBus.Publish[TMessage](TMessage message) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Events\Bus\MsmqEventBus.cs:行号 61
+   在 OnlineStore.Domain.Events.EventHandlers.OrderDispatchedEventHandler.Handle(OrderDispatchedEvent event) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\EventHandlers\OrderDispatchedEventHandler.cs:行号 29
+   在 OnlineStore.Domain.Events.DomainEvent.Handle[TDomainEvent](TDomainEvent domainEvent) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\DomainEvent.cs:行号 65
+   在 OnlineStore.Domain.Model.Order.Dispatch() 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Model\Order.cs:行号 90
+   在 OnlineStore.Application.ServiceImplementations.OrderServiceImp.Dispatch(Guid orderId) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Application\ServiceImplementations\OrderServiceImp.cs:行号 191
+   在 DynamicModule.ns.Wrapped_IOrderService_8786612ef1314e00b4b245d86250d753.<Dispatch_DelegateImplementation>__10(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+
+2017-11-15 14:59:18,161 [15] ERROR OnlineStore.Logger - Exception caught
+System.Messaging.MessageQueueException (0x80004005): 队列不存在，或您没有足够的权限执行该操作。
+   在 System.Messaging.MessageQueue.ResolveFormatNameFromQueuePath(String queuePath, Boolean throwException)
+   在 System.Messaging.MessageQueue.get_FormatName()
+   在 System.Messaging.MessageQueue.SendInternal(Object obj, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   在 System.Messaging.MessageQueue.Send(Object obj)
+   在 OnlineStore.Events.Bus.MsmqEventBus.Publish[TMessage](TMessage message) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Events\Bus\MsmqEventBus.cs:行号 61
+   在 OnlineStore.Domain.Events.EventHandlers.OrderDispatchedEventHandler.Handle(OrderDispatchedEvent event) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\EventHandlers\OrderDispatchedEventHandler.cs:行号 29
+   在 OnlineStore.Domain.Events.DomainEvent.Handle[TDomainEvent](TDomainEvent domainEvent) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Events\DomainEvent.cs:行号 65
+   在 OnlineStore.Domain.Model.Order.Dispatch() 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Domain\Model\Order.cs:行号 90
+   在 OnlineStore.Application.ServiceImplementations.OrderServiceImp.Dispatch(Guid orderId) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Application\ServiceImplementations\OrderServiceImp.cs:行号 191
+   在 DynamicModule.ns.Wrapped_IOrderService_8786612ef1314e00b4b245d86250d753.<Dispatch_DelegateImplementation>__10(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+
+2017-11-15 15:00:42,663 [21] ERROR OnlineStore.Logger - Exception caught
+System.Net.Mail.SmtpException: 正在处理错误。 服务器响应为:Timeout.
+   在 System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   在 System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   在 System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 OnlineStore.Infrastructure.Utils.SendEmail(String to, String subject, String content) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Infrastructure\Utils.cs:行号 46
+   在 OnlineStore.Events.Handlers.SendEmailHandler.Handle(OrderConfirmedEvent event) 位置 D:\开发\kaifa\源码007\OnlineStore-master\OnlineStore.Events.Handlers\SendEmailHandler.cs:行号 15
